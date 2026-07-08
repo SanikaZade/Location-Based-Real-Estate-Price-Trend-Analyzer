@@ -1,7 +1,6 @@
 # 🏡 Location-Based Real Estate Price Trend Analyzer
 
 A machine learning project that predicts real estate prices using property features and visualizes property locations on an interactive map.
-
 The goal of this project is to help users understand property price trends across different locations by combining data preprocessing, machine learning, and geographic visualization.
 
 ---
