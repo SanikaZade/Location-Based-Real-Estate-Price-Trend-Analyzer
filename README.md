@@ -69,7 +69,8 @@ Real-Estate/
 ```
 ---
 
-Final interface 
+
+## 🗺️ Final interface 
 <img width="1407" height="916" alt="Screenshot 2026-03-28 122644" src="https://github.com/user-attachments/assets/17238dd0-7131-4c72-b139-0da93b546b7b" />
 
 ---
@@ -129,7 +130,7 @@ The map uses latitude and longitude values stored in `data_with_latlng.json`.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Clone the repository
 
