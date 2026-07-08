@@ -1,28 +1,199 @@
-# Real Estate 
-Location-Based Real Estate Price Trand Analyzer  
-A data-driven web application that analyzes and visualizes real estate price trends based on geographical locations. This project enables users to explore property prices interactively and identify trends across different regions to make informed investment and purchasing decisions.
+# 🏡 Location-Based Real Estate Price Trend Analyzer
 
-The Location-Based Real Estate Price Trend Analyzer is designed to collect, process, and visualize housing data from multiple real estate platforms. It focuses on identifying price variations across locations and presenting insights through an interactive map interface.
-A key highlight of this project is the use of OpenStreetMap (OSM) with Leaflet.js instead of traditional paid mapping services. This approach eliminates the need for API keys and billing dependencies, making the application completely free, open-source, and scalable.
+A machine learning project that predicts real estate prices using property features and visualizes property locations on an interactive map.
 
-📍 Interactive Map Visualization
-Displays property locations on a dynamic map using Leaflet.js and OpenStreetMap.
-📊 Location-Based Price Analysis
-Compare property prices across different areas and identify trends.
-🌐 Web Scraping Integration
-Extracts real-time data from real estate platforms such as Housing and 99acres.
-🧠 Data Processing & Analysis
-Performs data cleaning, transformation, and exploratory data analysis (EDA).
-📈 Insightful Visualizations
-Presents trends using charts and map-based overlays for better understanding.
+The goal of this project is to help users understand property price trends across different locations by combining data preprocessing, machine learning, and geographic visualization.
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Mapping: Leaflet.js, OpenStreetMap (OSM)
-Data Visualization: JavaScript
-Data Collection: Instant Data Scraper
-Data Processing & Analysis: Python (Pandas, NumPy)
+---
+
+## 📌 Project Overview
+
+Buying or investing in real estate often requires comparing prices across multiple locations. This project simplifies that process by analyzing housing data, predicting property prices using Machine Learning, and displaying property locations on a map.
+
+The project mainly focuses on:
+
+- Cleaning and preparing housing data
+- Building a price prediction model
+- Visualizing properties geographically
+- Understanding location-wise price trends
+
+---
+
+## ✨ Features
+
+- Property price prediction using Machine Learning
+- Data preprocessing and feature engineering
+- Categorical feature encoding
+- Interactive map visualization
+- JSON data generation for map display
+- Easy-to-understand project workflow
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Languages
+- Python
+- JavaScript
+
+### Libraries
+- Pandas
+- NumPy
+- Scikit-learn
+- OpenPyXL
+- Xlsx (Node.js)
+
+### Visualization
+- Google Maps API
+
+---
+
+## 📂 Project Structure
+
+```
+Real-Estate/
+│
+├── CODE_ML_minor.ipynb              # Machine Learning model
+├── preprocess data final code.ipynb # Data preprocessing
+├── Original Housing data.xlsx       # Raw dataset
+├── final_dataset.xlsx               # Processed dataset
+├── map show.xlsx                    # Dataset for map
+├── data.json
+├── data_with_latlng.json
+├── excel_to_json.js
+├── geocode_to_latlng.js
+├── index.html                       # Interactive map
+├── package.json
+└── README.md
+```
 
 Final interface 
 <img width="1407" height="916" alt="Screenshot 2026-03-28 122644" src="https://github.com/user-attachments/assets/17238dd0-7131-4c72-b139-0da93b546b7b" />
+
+---
+
+## 📊 Machine Learning Workflow
+
+```
+Housing Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Encoding Categorical Features
+        │
+        ▼
+Train-Test Split
+        │
+        ▼
+Linear Regression Model
+        │
+        ▼
+Price Prediction
+        │
+        ▼
+Performance Evaluation
+```
+
+---
+
+## 📈 Features Used
+
+The prediction model uses several property attributes, including:
+
+- Location
+- Property Type
+- Area Type
+- Price per Square Foot
+- Property Category (Ribbon)
+- Other encoded property features
+
+---
+
+## 🗺️ Map Visualization
+
+The project includes a simple web page that displays property locations on Google Maps.
+
+Each marker provides information such as:
+
+- Property location
+- Price per square foot
+
+The map uses latitude and longitude values stored in `data_with_latlng.json`.
+
+---
+
+## 🚀 How to Run
+
+### Clone the repository
+
+```bash
+git clone https://github.com/SanikaZade/Real-Estate-.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the notebooks
+
+Open the notebooks using Jupyter Notebook or Google Colab.
+
+```
+preprocess data final code.ipynb
+CODE_ML_minor.ipynb
+```
+
+### Launch the map
+
+Open
+
+```
+index.html
+```
+
+in your browser.
+
+---
+
+## 📁 Dataset
+
+The project includes:
+
+- Original housing dataset
+- Cleaned dataset
+- Dataset prepared for map visualization
+
+These datasets are used for preprocessing, model training, and geographic visualization.
+
+---
+
+## 📊 Model
+
+The project uses **Linear Regression** for property price prediction.
+
+The model is evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+---
+
+## 💡 Future Improvements
+
+- Add more property data from multiple cities
+- Try advanced regression models such as Random Forest and XGBoost
+- Build a Flask or Streamlit web application
+- Add filters based on budget, location, and property type
+- Improve prediction accuracy with additional features
+
+
+
 
