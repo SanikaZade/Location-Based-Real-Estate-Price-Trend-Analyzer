@@ -68,7 +68,6 @@ Real-Estate/
 ```
 ---
 
-
 ## 🗺️ Final interface 
 <img width="1407" height="916" alt="Screenshot 2026-03-28 122644" src="https://github.com/user-attachments/assets/17238dd0-7131-4c72-b139-0da93b546b7b" />
 
